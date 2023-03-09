@@ -1,0 +1,333 @@
+.top{
+	background: black;
+	color: white;
+	width: 100%;
+
+}
+header div,i{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20;
+}
+header i{
+	color: red;
+}
+header span{
+	position: relative;
+	left: 250px;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+header .menu ul li{
+	display: inline-block;
+	margin-left: 15px;
+}
+header img{
+	height:90px ;
+	width: 100px;
+}
+header .me{
+	display: inline-block;
+	position: relative;
+	bottom: 40px;
+}
+header .ba{
+	position: relative;
+	bottom: 50px;
+}
+header .se{
+	position: relative;
+	right: 35px;
+	margin-left:0px ;
+}
+header input{
+	width: 200px;
+}
+/* banner section start */
+.banner {
+	background: url("image/ba.jpg");
+	background-size: cover;
+	height: 600px;
+	position: relative;
+	bottom: 100px;
+}
+.banner p{
+	position: relative;
+	top: 200px;
+	color: white;
+	left: 330px;
+	font-size: 45;
+}
+.banner .sd{
+	position: relative;
+	left: 980px;
+	top: 45px;
+	font-size: 30;
+}
+.banner .da{
+	position: relative;
+	left: 500px;
+	top: 370px;
+	color: red;
+	font-size: 40;
+}
+/* categories section start */
+.categories div{
+	display: inline-block;
+	width: 28%;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.categories h1{
+	text-align: center;
+}
+.categories p{
+	font-size: 24;
+}
+ button{
+	color: white;
+	background: brown;
+	border-radius: 40px;
+	
+	height: 40px;
+	width: 160px;
+	font-size: 20;
+}
+button:hover{
+	color: cyan;
+	background: black;
+}
+/* trading section start */
+.trending h1{
+	text-align: center;
+}
+.trending div{
+	display: inline-block;
+	width: 15%;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 2px;
+}
+.trending img{
+	height: 200px;
+	width: 200px;
+}
+.trending p{
+	font-size: 25;
+}
+.trending h5{
+	font-size: 20;
+	margin-top: 0px;
+}
+/*brands section start*/
+.brand div{
+	display: inline-block;
+	width: 12%;
+	margin: 10px;
+	padding: 5px;
+
+}
+.brand img{
+	height: 100px;
+	width: 140px;
+	margin-left: 40px;
+	padding: 10px;
+}
+.brand h1{
+	text-align: center;
+	margin-top: 50px;
+}
+/* best seller section start */
+.best div{
+	display: inline-block;
+	width: 13%;
+	margin: 10px;
+	padding: 10px;
+}
+.best img{
+	height: 180px;
+	width: 180px;
+}
+.best h1{
+	text-align: center;
+}
+.best p{
+	font-size: 24;
+}
+/* about us */
+.about div{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	margin-top: px;
+	padding-right: 10px;
+}
+.about {
+	
+	height: 400px;
+	padding-right: 50px;
+	margin-top: 80px;
+}
+h1{
+	text-align: center;	
+	font-size: 45;
+}
+.about p{
+	font-size: 23;
+	text-align: justify;
+}
+/* why choose section start */
+.why div{
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	margin: 30px;
+	background: whitesmoke;
+	border-radius: 60px;
+
+}
+.why{
+	margin-left: 130PX;
+	margin-top: 70PX;
+	text-align: center;
+}
+.why h4{
+	text-align: center;
+	font-size: 30;
+}
+.why p{
+	display: none;
+	font-size: 30;
+	text-align: justify;
+	border-radius: 40px;
+}
+.why i{
+	font-size: 50;
+	color: darkred;
+}
+/* GALLERY SECTION START */
+.gallery div{
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	padding: 10px;
+}
+.gallery img{
+	height:300px ;
+	width: 400px;
+	border-radius: 20px;
+}
+.gallery {
+	text-align: center;
+}
+/* video section start */
+.video div{
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+/* test section start */
+.test div{
+	display: inline-block;
+	width: 45%;
+	margin:10px;
+	padding: 10px;
+	text-align: center;
+}
+.test h3{
+	font-size: 30px;
+	color: cyan;
+}
+.test i{
+	font-size: 40;
+	color: darkred;
+}
+.test p{
+	font-size: 35;
+	color: currentColor;
+}
+
+/* cotact section start */
+.cotact div{
+	display: inline-block;
+	width: 47%;
+}
+.cotact div div div{
+	display: inline-grid;
+	height: 100%;
+	padding: 300px;
+
+}
+.cotact div{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30;
+}
+.cotact i{
+	font-size: 40;
+	color: red;
+}
+
+/* footer section start */
+
+footer{
+	background: black;
+	list-style-type: none;
+	margin-top: 20px;
+}
+footer div{
+	display: inline-block;
+	color: white;
+	list-style-type: none;
+	width: 20%;
+	margin-left: 0px;
+	padding: 20px;
+}
+.contf{
+	font-size: 20;
+	position: relative;
+	bottom: 70px;
+	margin-left: 10px;
+	text-align: center;
+}
+.f{
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 22;
+}
+.ho{
+	position: relative;
+	bottom: 30px;
+}
+footer i{
+	color: darkred;
+}
+footer h4{
+	font-size: 20;
+	color: cyan;
+	position: relative;margin-bottom: 10px;margin-top: 0px;
+}
+.au {
+	position: relative;
+	left: 160px;
+	bottom: 40px;
+}
+footer .con p{
+
+	position: relative;
+	top: 15px;
+	text-align: left;
+}
+.ic {
+	position: relative;
+	bottom: 20px;
+}
+footer p{
+	color: white;
+	text-align: center;
+}
